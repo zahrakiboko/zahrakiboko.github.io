@@ -1,6 +1,7 @@
 function askQuestions () {
 
 
+
 	var lastName = prompt('What is your last name?');
 
 	var fullName = firstName + ' ' + lastName;
