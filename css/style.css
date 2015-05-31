@@ -1,0 +1,62 @@
+body {
+	background-image: url(../images/bg.jpg);
+	background-attachment: fixed;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.main 	{
+	width: 600px;
+	background-color: rgba(255,255,255,0.7);
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 10px 10px 10px 10px rgba(255,255,255,0.5);
+}
+
+h1	{
+	font-family:'Source Sans Pro', sans-serif;
+	font-style: italic;
+	font-size: 60px;
+	text-shadow: 0 0 40px #0033ff;
+	text-align: right;
+}
+
+h1,	
+h2	{
+	text-align: center;
+}
+
+/* smile*/
+h2{
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 10px;
+}
+
+img {
+	margin:0 auto;
+	display: block;
+	width: 200px;
+	border: 10px dashed black;
+	border-radius: 10px;
+}
+
+
+p,
+ul,
+ol	{
+	line-height: 1.4;
+	list-style: none;
+	padding-left:  0;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #fe0099;
+}
+a:focus
+a:hover	{
+	text-decoration: underline;
+	color: #ff33cc;
+}
